@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - print a c program using printf
- * Return 0 if exites properly, non-zero otherwise
+ * Return: 0 if exites properly, non-zero otherwise
 */
 int main(void)
 {

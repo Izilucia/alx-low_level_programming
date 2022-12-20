@@ -1,5 +1,6 @@
 #include <stdio.h>
-/** main - prints all single digit numbers of base ten
+/**
+ * main - prints all single digit numbers of base ten
  *
  * Return: 0
  */

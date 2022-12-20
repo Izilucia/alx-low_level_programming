@@ -2,30 +2,19 @@
 /**
  * main - prints the alphabet in lower case
  * and in uppercase
- *
- * Return: 0
+ * Return: Always 0
  */
 int main(void)
 {
-	char c = 'a';
+	char letter;
 
-	while
-		(c <= 'z');
-	{
-		putchar(c);
-		c++;
-	}
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
 
-	c = 'A';
-
-
-	while
-		(c <= 'Z');
-	{
-		putchar(c);
-		c++;
-	}
+	for (letter = 'A'; letter <= 'Z'; letter++)
+		putchar(letter);
 
 	putchar('\n');
+
 	return (0);
 }

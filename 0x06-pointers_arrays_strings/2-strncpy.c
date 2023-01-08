@@ -1,27 +1,27 @@
-#include <stdio.h>
+#include "main.h"
 
-int main(void)
-{
-	int n;
-	int a[5];
-	int *p;
 
-	a[2] = 1024;
-	p = &n;
 
-/*
- * main - a function that copies a string.
- * write your line of code here...
- * Remember:
- * - you are not allowed to use a
- * - you are not allowed to modify p
- * - only one statement
- * - you are not allowed to code anything else than this line of code
+/**
+ * _strncat - concatenates two strings
+ * @src: The source of strings
+ * @dest: The destination of the string
+ * @n: The length of int
+ *
+ * Return: pointer to the resulting string dest
  */
+char *_strncat(char *dest, char *src, int n)
+{
+	int i, j;
 
-	*(p + 5) = 98;
-	/* ...so that this prints 98\n */
-
-	printf("a[2] = %d\n", a[2]);
-	return (0);
+	for (i = 0; dest[i] != '\0'; i++)
+	{
+		continue;
+	}
+	for (j = 0; src[j] != '\0' && j < n; j++)
+	{
+		dest[i + j] = src[j];
+	}
+	dest[i + j] = '\0';
+	return (dest);
 }
